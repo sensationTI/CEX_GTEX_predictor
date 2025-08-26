@@ -35,7 +35,7 @@ train_nn()
 ```
 - Loads protein-coding gene data from a `protein2_promoter.pkl` file.
 - Uses the given threshold (in base pairs) to determine vicinities.
-- Saves the trained model in `cnn_encoder.kera`.
+- Saves the trained model in `cnn_encoder.keras`.
 
 - To visualize the generated profile:
 ```python
