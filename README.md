@@ -3,10 +3,10 @@
 This notebook provides the source code for the CEX pipeline, a genotype-tissue expression profile simulator.
 It consists of the following module.
 
-## 1. Vicinity Set Cover Algorithm for Solving Reference Genes in the Human Genome
-## 2. Build the CNN Module
-## 3. Build the Encoder Module
-## 4. Build the XGBoost Module
+1. Vicinity Set Cover Algorithm for Solving Reference Genes in the Human Genome
+2. Build the CNN Module
+3. Build the Encoder Module
+4. Build the XGBoost Module
 
 ## What it needs
 
