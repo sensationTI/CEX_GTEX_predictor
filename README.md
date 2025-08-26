@@ -21,7 +21,7 @@ Then, register the kernel:
 conda activate myenv
 python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
 ```
-Since this code runs on a NVIDIA RTX4090 (cuda12.1, cuDNN = 8.9, Tensorflow version = 2.14.0),
+Since this code runs on a NVIDIA RTX4090 (cuda12.1, cuDNN = 8.9, Tensorflow version = 2.14.0),\\
 if there is a different GPU, make sure you have the compatible versions, which can be found here:
 https://docs.nvidia.com/deeplearning/cudnn/backend/latest/reference/support-matrix.html
 
