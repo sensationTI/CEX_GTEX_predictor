@@ -68,7 +68,7 @@ Additionally, to get the training and testing dataset and other useful data, add
 idx = np.random.randint(0, len(testing_df))
 show_random_profile_prediction(idx)
 ```
-This will output:
+This will output:\
 Profile comparisons for the predicted, experimental, and reference gene's profile.
 
 ```python
