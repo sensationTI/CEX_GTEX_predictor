@@ -55,7 +55,7 @@ This will output:
 - `lower_model`: The trained quantile regression model for predicting upper bound.
 - `upper_model`: The trained quantile regression model for predicting lower bound.
 - `mean_errors`: Mean estimation errors at the current threshold(s).
-Additionally, to get the training and testing dataset and other useful data:
+Additionally, to get the training and testing dataset and other useful data, add the following to the arguments:
 - `X_train_features`: Training data.
 - `y_train_proc`: Training label (54 expression value).
 - `y_pred_median_real`: Predicted values from the median model.
