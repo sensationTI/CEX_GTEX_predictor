@@ -50,7 +50,7 @@ show_random_profile_prediction(gene_idx)
 # train the model
 best_model = train_nn()
 ```
-This will output:\
+This will output:
 - `best_model`: The trained model.
 - `lower_model`: The trained quantile regression model for predicting upper bound.
 - `upper_model`: The trained quantile regression model for predicting lower bound.
