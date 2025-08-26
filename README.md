@@ -88,11 +88,11 @@ plot_pwm(pwm, filter_index):
 
 ## 📁 Requirements
 - Compatible versions.
-- A file named `protein2_full.pkl` containing gene data in a dictionary format.
+- A file named `protein2_promoter.pkl` containing gene data in a dictionary format.
 - Run the cell that imports the necessary libraries.
 - Run the preceeding cells that define the required functions.
 
 ## 💡 Notes
 
-- Adjust `threshold` to control the size of the training sets.
+- Adjust `thres` to control the size of the training sets.
 - Make sure all necessary imports (e.g., `pickle`, `numpy`) are included.
