@@ -29,13 +29,20 @@ https://docs.nvidia.com/deeplearning/cudnn/backend/latest/reference/support-matr
 ## 🔧 How It Works
 Execute all cells in order.
 
-The main function:
+To train the model from scratch:
 ```python
 train_nn()
 ```
 - Loads protein-coding gene data from a `protein2_promoter.pkl` file.
 - Uses the given threshold (in base pairs) to determine vicinities.
 - Saves the trained model in `cnn_encoder.keras`.
+
+To load the trained model:
+```python
+best_model = keras.models.load_model("cnn_encoder.keras")
+# Verify it's working
+loaded_model.summary()
+```
 
 - To visualize the generated profile:
 ```python
